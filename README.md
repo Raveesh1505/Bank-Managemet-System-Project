@@ -14,6 +14,7 @@ Bank Management System Project in Python is a simple console-based totally appli
 This projects consists of 6 **python scipt files** and 1 **.db file** which is a light weigh SQLITE3 DB. Detailed description is mentioned below:
 
 | S.NO | FILE NAME | DESCRIPTION |
+| --- | --- | --- |
 | 1. | [new_acc.py](https://github.com/Raveesh1505/Bank-Managemet-System-Project/blob/main/new_acc.py) | Consists of python script for new applicant registration. |
 | 2. | [customer_search.py](https://github.com/Raveesh1505/Bank-Managemet-System-Project/blob/main/customer_search.py) | Consists of python script for existing member search. |
 | 3. | [cash_deposit.py](https://github.com/Raveesh1505/Bank-Managemet-System-Project/blob/main/cash_deposit.py) | Consists of python script for depositing money to your bank account. |
