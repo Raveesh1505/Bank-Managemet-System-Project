@@ -4,10 +4,10 @@ Bank Management System Project in Python is a simple console-based totally appli
 
 ## Table of content
 
-- [File Details](#file-details)
-- [How to run](#how-to-run)
-- [Preview](#preview)
-- [Resources](#resources)
+- [**File Details**](#file-details)
+- [**How to run**](#how-to-run)
+- [**Preview**](#preview)
+- [**Resources**](#resources)
 
 ## File details
 
@@ -36,12 +36,12 @@ This projects consists of 6 **python scipt files** and 1 **.db file** which is a
 
 ## Preview
 
-A preview folder of this project has been made. It consists of some snaps of the project being run on **macOS Terminal**. Have a look at them in the preview_images folder.
+A preview folder of this project has been made. It consists of some snaps of the project being run on **macOS Terminal**. Have a look at them in the [**preview_images folder**](https://github.com/Raveesh1505/Bank-Managemet-System-Project/tree/main/preview_images).
 
-- Money Deposit preview
-- Existing customer search preview
-- Main menu preview
-- New registration preview
+- [**Money Deposit preview**](https://github.com/Raveesh1505/Bank-Managemet-System-Project/blob/main/preview_images/deposit.png)
+- [**Existing customer search preview**](https://github.com/Raveesh1505/Bank-Managemet-System-Project/blob/main/preview_images/existing%20customer%20search.png)
+- [**Main menu preview**](https://github.com/Raveesh1505/Bank-Managemet-System-Project/blob/main/preview_images/main%20menu.png)
+- [**New registration preview**](https://github.com/Raveesh1505/Bank-Managemet-System-Project/blob/main/preview_images/new%20registration.png)
 
 ## Resources
 
