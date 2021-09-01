@@ -1,0 +1,26 @@
+from connection_db import *
+
+def cash_withdraw():
+    conn, c = connect_db()
+    name_input = input("Enter your name: ")
+    name = name_input.upper()
+    acc_number_input = input("Enter your account number: ")
+    acc_number = acc_number_input.upper()
+    pin = input("Enter your pin: ")
+    ammount = int(input("Enter the withdrawal ammount: "))
+    c.execute("""UPDATE BANK_DETAILS SET BALANCE = BALANCE - ? WHERE ACC_NUMBER = ? and NAME = ? and PIN = ?""", (ammount, name, acc_number, pin))
+    conn.commit()
+    print("")
+    print("Money withdraw successfull! Please have a look at your updated details below:")
+    print("")
+    c.execute("""SELECT NAME, PHONE, EMAIL, ADDRESS, ACC_TYPE, ACC_NUMBER, USER_ID, BALANCE FROM BANK_DETAILS WHERE NAME = ?;""", (name,))
+    res_1 = c.fetchall()
+    for column in res_1:
+        print("Name: ", column[0])
+        print("Phone: ", column[1])
+        print("E-Mail: ", column[2])
+        print("Address: ", column[3])
+        print("Account Type: ", column[4])
+        print("Account Number: ", column[5])
+        print("User ID: ", column[6])
+        print("Balance: ", column[7])
