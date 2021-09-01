@@ -42,9 +42,9 @@ A preview folder of this project has been made. It consists of some snaps of the
 - Existing customer search preview
 - Main menu preview
 - New registration preview
- 
+
 ## Resources
 
-1. [**Python: **](https://www.python.org)Python is a programming language that lets you work quickly and integrate systems more effectively.
-2. [**SQLite: **](https://www.sqlite.org/index.html)SQLite is a relational database management system contained in a C library. 
-3. [**VSCode: **](https://code.visualstudio.com)Visual Studio Code is an integrated development environment made by Microsoft for Windows, Linux and macOS.
+1. [**Python:**](https://www.python.org) Python is a programming language that lets you work quickly and integrate systems more effectively.
+2. [**SQLite:**](https://www.sqlite.org/index.html) SQLite is a relational database management system contained in a C library. 
+3. [**VSCode:**](https://code.visualstudio.com) Visual Studio Code is an integrated development environment made by Microsoft for Windows, Linux and macOS.
